@@ -3,9 +3,8 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import mainImage from '@/assets/images/crystal-ball.png'
-import { Form } from 'react-bootstrap'
+import { Form, Button, Spinner } from 'react-bootstrap'
 import { FormEvent, useState } from 'react'
-import Button from 'react-bootstrap/esm/Button'
 
 
 const inter = Inter({ subsets: ['latin'] })
